@@ -1,0 +1,277 @@
+html, body {
+	background-color: #282828;
+	margin: 0;
+    padding: 0;
+	height: 100%;
+}
+h2,p {
+	padding: 0;
+	margin: 0;
+}
+#wrapper {
+	width: 830px;
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -153px auto; /* отрицательный нижний отступ на высоту футера */
+    padding: 0;
+	background-color: #ffffff;
+}
+#header {
+	width: 830px;
+	height: 368px;
+	margin: 100px auto 0;
+	background-image: url(images/header.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #FFFFFF;
+}
+#menu {
+	position: absolute;
+	margin-top: 18px;
+	margin-left: 385px;
+	display: inline-block;
+	cursor: default;
+}
+#menu>ul {
+	margin: 0px;
+	padding: 0px;
+}
+#menu>ul >li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 10px;
+}
+#menu>ul >li a {
+	height: 29px;
+	padding: 0 15px;
+	color: #111111;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 29px;
+}
+#menu>ul >li a:hover {
+	outline: 2px solid #111111;
+}
+#images {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+#logo {
+	position: absolute;
+	width: 93px;
+	height: 30px;
+	margin-left: 117px;
+	margin-top: 18px; 
+}
+#logo2 {
+	position: absolute;
+	width: 292px;
+	height: 98px;
+	margin-left: 145px;
+	margin-top: 77px;
+	padding: 0;
+}
+#paw1 {
+	position: absolute;
+	width: 36px;
+	top: 125px;
+	left: 478px;
+	transform: rotate(98deg);
+}
+#paw2 {
+	position: absolute;
+	width: 36px;
+	top: 105px;
+	left: 537px;
+	transform: rotate(83deg);
+}
+#paw3 {
+	position: absolute;
+	width: 36px;
+	top: 129px;
+	left: 607px;
+	transform: rotate(110deg);
+}
+#paw4 {
+	position: absolute;
+	width: 36px;
+	top: 163px;
+	left: 668px;
+	transform: rotate(150deg);
+}
+#paw5 {
+	position: absolute;
+	width: 36px;
+	top: 223px;
+	left: 690px;
+	transform: rotate(165deg);
+}
+#paw6 {
+	position: absolute;
+	width: 30px;
+	top: 278px;
+	left: 693px;
+	transform: rotate(207deg);
+}
+#title_head{
+	position: absolute;
+	margin-top: 185px;
+	margin-left: 175px;	
+}
+#content_head{
+	position: absolute;
+	width: 577px;
+	margin-top: 240px;
+	margin-left: 120px;	
+	text-align: center;
+}
+#content_wrapper{
+	width: 830px;
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+#content{
+	position: absolute;
+	width: 335px;
+	margin-top: 0px;
+	padding-top: 25px;
+	margin-left: 110px;
+	text-align: center;
+	z-index: 10;
+}
+#title_content{
+	padding-bottom: 15px;
+}
+#content_images{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+#notebook{
+	position: absolute;
+	width: 305px;
+	top: 25px;
+	margin-left: 420px;
+	z-index: 7;
+}
+#logo3{
+	position: absolute;
+	width: 188px;
+	margin-top: 298px;
+	margin-left: 155px;
+	z-index: 4;
+}
+#button{
+	position: absolute;
+	width: 115px;
+	height: 38px;
+	margin-top: 313px;
+	margin-left: 522px;
+	padding: 0px;
+	display: inline-block;
+	background-color: #347a51;
+	line-height: 38px;
+	text-align: center;
+	z-index: 4;
+}
+#button>a{
+	height: 38px;
+	color: #111111;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 19px;
+	line-height:38px;
+	padding: 0 19px;
+}
+#background{
+	width: 830px;
+	height: 230px; 
+	margin: 0;
+	background-color: #f5f9f7;
+	z-index: 1;
+}
+#background2{
+	width: 830px;
+	height: 170px; 
+	margin-top: 15px;
+	background-color: #f5f9f7;
+	z-index: 1;
+}
+#footer-push {
+	height: 153px;
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+	position: relative;
+	width: 830px;
+	height: 153px;
+	margin: 0 auto;
+	background-image: url(images/footer.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #FFFFFF;
+}
+
+
+#facebook {
+	position: absolute;
+	width: 30px;
+	margin-top: 63px;
+	margin-left: 407px;
+	padding: 0;
+}
+#google {
+	position: absolute;
+	width: 30px;
+	margin-top: 63px;
+	margin-left: 492px;
+	padding: 0;
+}
+#twitter {
+	position: absolute;
+	width: 30px;
+	margin-top: 63px;
+	margin-left: 578px;
+	padding: 0;
+}
+
+#contact {
+	position: absolute;
+	margin-top: 63px;
+	margin-left: 150px;
+	display: inline-block;
+	cursor: default;
+}
+#contact>ul {
+	margin: 0px;
+	padding: 0px;
+}
+#contact>ul >li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 10px;
+}
+#contact>ul >li a {
+	height: 30px;
+	color: #111111;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 30px;
+	padding: 0 15px;
+}
+#copyright {
+	position: absolute;
+	width: 830px;
+	bottom: 15px;
+	text-align: center;
+	font-size: 15px;
+}
+
+ 
+
